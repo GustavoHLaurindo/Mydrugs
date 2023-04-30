@@ -1,0 +1,33 @@
+.principal{
+    display: grid;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 80px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+}
+.produtos{
+    font-size: 3em;
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#fdfdfd, #fafafa,rgb(255, 255, 255));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    animation: up 2s ease-in infinite alternate-reverse;
+}
+
+@keyframes up {
+    from{
+        transform: translateY(20px);
+    }
+    
+    to{
+        ransform: translateY(-20px);
+    }
+}
+.container{
+    margin-top: 90px;
+}

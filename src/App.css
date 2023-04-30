@@ -1,0 +1,17 @@
+
+header{
+  padding: 10px;
+}
+.App{
+  background-image: url("../public/imagens/background.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-color: purple;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.background{
+  min-height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(3px) grayscale(10%) opacity(50%)  hue-rotate(120deg);;
+}
